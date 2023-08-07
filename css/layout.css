@@ -1,0 +1,21 @@
+header{
+  text-align: center;
+}
+
+
+.policy{
+  font-size:30px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  transition: 1.5s;
+
+}
+
+
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 0.01s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
